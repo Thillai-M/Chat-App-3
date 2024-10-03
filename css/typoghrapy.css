@@ -1,0 +1,19 @@
+
+.deafault-tittle{
+    font-size: 22px;
+    font-family:var(--font-semibold);
+    color:var(--c-black);
+}
+.deafault-tittle-sm{
+    font-size: 18px;
+    color:var(--c-black);
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: var(--br-radius-lm);
+    background-color: var(--c-blur-blue);
+}

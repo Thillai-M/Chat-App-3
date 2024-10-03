@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="description" content="ChatApp">
+    <meta name="keywords" content="chatapp,Html,css landing page">
+    <meta name="author" content="Thillai">
+    <title>Chat-App</title>
+
+    <!-- Box-icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- CSS -->
+
+    <!-- common-style -->
+    <link rel="stylesheet" href="./css/colors.css">
+    <link rel="stylesheet" href="./css/animation.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/global-value.css">
+    <link rel="stylesheet" href="./css/flex.css">
+    <link rel="stylesheet" href="./css/style-bits.css">
+    <link rel="stylesheet" href="./css/font.css">
+
+    <!-- component-style -->
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/typoghrapy.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+    
+    <!-- CSS -->
+
+
+</head>
+<body>
+    <div class="app-container">
+
+        <!-- sidebar -->
+        <aside class="sidebar">
+        
+            <div class="grp-1 "><a href="" class="logo-cont"><img src="/images/tri.png" class="logo" alt="sidebar-img"></a></div> 
+            
+                    <div class="grp-2-icon">
+                        <ul class="D-flx FD-C AI-C G-30">
+                            <li>
+                                <a class="icon-link" href=""><i class='bx bx-tachometer'></i></a>
+                            </li>
+                            <li>
+                            <a class="icon-link " href=""><i class='bx bxs-show'></i> </a>
+                            </li>
+                            <li class="grp-bg">
+                                <a class="icon-link " href=""><i class='bx bxs-group c-green-15'></i></a>
+                            </li>
+                            <li>
+                                <a class="icon-link " href=""><i class='bx bx-list-ol'></i></a>
+                            </li>
+                            <li>
+                                <a class="icon-link" href=""><i class='bx bxs-video'></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                <div class="grp-3">
+                <button class="btn"><img class="profdown-img" src="/images/profile.jpeg" alt="profile-img"></button> 
+                </div>
+        </aside>
+        <!-- ///sidebar -->
+
+
+
+    
+    <div class="chat-container D-flx">
+
+        <div class="chat-list-container">
+
+            <!-- chat-list-header -->
+            <header class="chat-list-header">
+                <div class="D-flx AI-C G-15">
+                    <div>
+                    <button class="btn arrow-btn"> <i class='bx bx-chevron-left c-grey-25 f22'></i></button>
+                    </div>
+                    <div><h3 class="deafault-tittle">Chat</h3></div>
+                </div>
+            </header>
+    
+
+        <!-- profile-cont -->
+        <section>
+        <div class="profile-container">
+            <div class="D-flx JC-FE setting "><button class="btn"><i class='bx bx-cog f20 c-grey-25'></i></button></div>
+            <div class="profile-cont-in D-flx Ta-c JC-C ">
+                <div>
+                    <div class="prof-img-cont"><img class="profile-img" src="/images/profile.jpeg" alt="">
+                    <span class="online"></span></div>
+
+                    <div><h3 class="deafault-tittle-sm mB8">Debi</h3></div>
+    
+                    <div class="avail D-flx AI-C G-5"><span class="c-green-15">Available</span><i class='bx bx-chevron-down c-green-15 f22'></i></div>
+                </div>
+                </div>
+            
+        </div>
+        
+
+        <!-- search-cont -->
+        <div class="search-cont-box D-flx FD-C JC-C">
+            <div class="search-container D-flx AI-C JC-SB">
+                <div> <input type="text" placeholder="Search" class="search-input"></div>
+                <span class="search-icon"><i class='bx bx-search c-grey-25 f22'></i></span>
+            </div>
+            <div>
+                <div class="last-chat-cont D-flx JC-SB AI-C mT10">
+                    <div><span class="f14">Last Chat</span></div>
+    
+                    <div class="D-flx AI-C G-8">
+                        <div class=" D-flx JC-C AI-C"><button class="btn add-btn"><i class='bx bx-plus c-green-15 f22'></i></button></div>
+                        <div><button class="btn"><i class='bx bx-dots-vertical c-grey-25 f22'></i></button></div>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    
+        <!-- chat-lists-data -->
+        <div class="chat-lists-box ">
+            <ul class="chat-lists">
+                <li class="chat-list-data">
+                    <a href="" class="D-flx JC-SB AI-C chat-list-link">
+                    
+                        <div class="D-flx G-10 AI-C">
+                            <div><img class="profdown-img" src="/images/sridhar.jpeg" alt="chat-img"></div>
+                            <div><span class="deafault-tittle-sm">Sridhar Sir</span><p class="c-grey-25 f14 mT3">Typing.... </p></div>
+                        </div>
+                        <div><small class="c-grey-25">11.15pm</small></div>
+                
+                </a>
+            </li>
+
+            <li class="chat-list-data ">
+                <a href="" class="D-flx JC-SB AI-C chat-list-link">
+            
+                    <div class="D-flx G-10 AI-C">
+                        <div><img class="profdown-img" src="/images/p1.jpeg" alt="chat-img"></div>
+                        <div>
+                            <span class="deafault-tittle-sm">Dravid</span>
+                            
+                            <p class="c-grey-25 f14 mT3 hiden-msg">Lorem ipsum dolor sit ametconsectetur, adipisicing elit. Neque dolore aliquam facilis harum distinctio voluptatem fuga fugit iusto ducimus, consequatur error dolores minima? Libero vel, iusto voluptatum accusantium eveniet aut!... </p>
+                        </div>
+                    </div>
+                    <div><small class="c-grey-25">12.15am</small></div>
+            
+            </a>
+        </li>
+
+
+        <li class="chat-list-data">
+            <a href="" class="D-flx AI-C JC-SB chat-list-link">
+            
+                <div class="D-flx G-10 AI-C">
+                    <div><img class="profdown-img" src="/images/p3.jpeg" alt="chat-img"></div>
+                    <div><span class="deafault-tittle-sm">Mohana</span><p class="c-grey-25 f14 mT3 hiden-msg">Yes you do some, adipisicing elit. Neque dolore aliquam facilis harum distinctio voluptatem fuga fugit iusto ducimus, consequatur error dolores minima? Libero vel, iusto voluptatum accusantium eveniet aut!... </p></div>
+                </div>
+                <div><small class="c-grey-25">10.15am</small></div>
+        
+        </a>
+    </li>
+
+    <li class="chat-list-data ">
+        <a href="" class="D-flx AI-C JC-SB chat-list-link">
+        
+            <div class="D-flx G-10 AI-C">
+                <div><img class="profdown-img" src="/images/p1.jpeg" alt="chat-img"></div>
+                <div><span class="deafault-tittle-sm">Dravid</span><p class="c-grey-25 f14 mT3">Yesterday come to ofc</p></div>
+            </div>
+            <div><small class="c-grey-25">12.15am</small></div>
+        
+    </a>
+</li>
+
+    <li class="chat-list-data">
+        <a href="" class="D-flx AI-C JC-SB chat-list-link">
+        
+            <div class="D-flx G-10 AI-C">
+                <div><img class="profdown-img" src="/images/p5.jpeg" alt="chat-img"></div>
+                <div><span class="deafault-tittle-sm">Apsara Roy</span><p class="c-grey-25 f14 mT3">Typing.... </p></div>
+            </div>
+            <div><small class="c-grey-25">11.15am</small></div>
+    
+    </a>
+    </li>
+    
+    <li class="chat-list-data">
+        <a href="" class="D-flx JC-SB AI-C chat-list-link">
+    
+            <div class="D-flx G-10 AI-C">
+                <div><img class="profdown-img" src="/images/p3.jpeg" alt="chat-img"></div>
+                <div><span class="deafault-tittle-sm">Mohana</span><p class="c-grey-25 f14 mT3">Typing.... </p></div>
+            </div>
+            <div><small class="c-grey-25">10.15am</small></div>
+        
+    </a>
+</li>
+
+    <li class="chat-list-data ">
+        <a href="" class="D-flx AI-C JC-SB  chat-list-link">
+    
+            <div class="D-flx G-10 AI-C">
+                <div><img class="profdown-img" src="/images/p4.jpeg" alt="chat-img"></div>
+                <div><span class="deafault-tittle-sm">Smith</span><p class="c-grey-25 f14 mT3">Typing.... </p></div>
+            </div>
+            <div><small class="c-grey-25">10.55am</small></div>
+        
+    </a>
+</li>
+
+
+<li class="chat-list-data">
+    <a href="" class="D-flx JC-SB AI-C chat-list-link">
+    
+        <div class="D-flx G-10 AI-C">
+            <div><img class="profdown-img" src="/images/p5.jpeg" alt="chat-img"></div>
+            <div><span class="deafault-tittle-sm">Apsara Roy</span><p class="c-grey-25 f14 mT3">Typing.... </p></div>
+        </div>
+        <div><small class="c-grey-25">11.15am</small></div>
+    
+</a>
+</li>
+
+<li class="chat-list-data">
+    <li class="chat-list-data ">
+        <a href="" class="D-flx JC-SB AI-C chat-list-link">
+    
+        <div class="D-flx G-10 AI-C">
+            <div><img class="profdown-img" src="/images/p4.jpeg" alt="chat-img"></div>
+            <div><span class="deafault-tittle-sm">Smith</span><p class="c-grey-25 f14 mT3">Typing.... </p></div>
+        </div>
+        <div><small class="c-grey-25">10.55am</small></div>
+    
+</a>
+</li>
+
+
+<li class="chat-list-data ">
+    <a href="" class="D-flx JC-SB AI-C chat-list-link"> 
+
+        <div class="D-flx G-10 AI-C">
+            <div><img class="profdown-img" src="/images/p6.jpeg" alt="chat-img"></div>
+            <div><span class="deafault-tittle-sm">Muthu Kumar</span><p class="c-grey-25 f14 mT3">Typing.... </p></div>
+        </div>
+        <div><small class="c-grey-25">8.15pm</small></div>
+    
+</a>
+</li>
+
+
+<li class="chat-list-data">
+    <a href="" class="D-flx JC-SB AI-C chat-list-link">
+    
+        <div class="D-flx G-10 AI-C">
+            <div><img class="profdown-img" src="/images/p7.jpeg" alt="chat-img"></div>
+            <div><span class="deafault-tittle-sm">Thillai</span><p class="c-grey-25 f14 mT3">Typing.... </p></div>
+        </div>
+        <div><small class="c-grey-25">10.15am</small></div>
+    
+</a>
+</li>
+
+<li class="chat-list-data">
+    <a href="" class="D-flx AI-C JC-SB chat-list-link">
+
+        <div class="D-flx G-10 AI-C">
+            <div><img class="profdown-img" src="/images/p5.jpeg" alt="chat-img"></div>
+            <div><span class="deafault-tittle-sm">Apsara Roy</span><p class="c-grey-25 f14 mT3">Typing.... </p></div>
+        </div>
+        <div><small class="c-grey-25">11.15am</small></div>
+
+</a>
+</li>
+            </ul>
+        </div>
+        </div>
+    </section>
+
+        <!-- conversation-container -->
+        <div class="conversation-container">
+            <header class="conversation-header">
+
+                    <div class="D-flx JC-SB">
+                        <div><h3 class="deafault-tittle">Group Chat</h3></div>
+    
+                        <div class="D-flx AI-C G-10">
+                            <div class="msg-btn"><button class="btn c-green-15">Message</button></div>
+                            <p class="c-grey-25">Participants</p>
+                        </div>
+                    </div>
+                
+            </header>
+
+            <section class="conversation-box">
+                <div class="date"><span class="c-green-15">Today</span></div>
+                <ul class="conversation-list mT10">
+                    <li class="">
+                        <div class="D-flx AI-C G-10 mB20">
+                            <img src="./images/p3.jpeg" alt="img" class="conversation-img">
+                            <div>
+                                <small class="c-blk f12">Mohana,11.22pm</small>
+                                <div class="grp-msg D-flx AI-C mT5"><p class="conversation">Hi Everyone Let start the call Soon</p> <img class="emji-img" src="/images/emoji1.png" alt="emoji"> </div>
+                            </div>
+    
+                        </div>
+
+
+                        <div class="D-flx AI-C G-10 mB20">
+                            <img src="./images/p5.jpeg" alt="img" class="conversation-img">
+                            <div>
+                                <small class="c-blk f12 ">Apsara Roy,11.33pm</small>
+                                <div class="grp-msg D-flx AI-C mT5"><p class="conversation">Recently i saw properties in great location that i did not pay attention to before </p> <img class="emji-img" src="/images/emoji2.jpg" alt="emoji"></div>
+                            </div>
+    
+                        </div>
+
+                        <div class="D-flx AI-C G-10">
+                            <img src="./images/p6.jpeg" alt="img" class="conversation-img">
+                            <div>
+                                <small class="c-blk f12 ">Muthu kumar,12.00am</small>
+                                <div class="grp-msg D-flx AI-C mT5"><p class="conversation">Ooo,why don't you say  something  more</p></div>
+                                
+                            </div>
+    
+                        </div>
+
+                        <div class="D-flx AI-C G-10">
+                            <img src="./images/p6.jpeg" alt="img" class="conversation-img">
+                            <div>
+                                
+                                <div class="grp-msg D-flx AI-C mT5"><p class="conversation"><span class="c-green-15">@Robert </span> <small>?</small></p><img class="emji-img" src="./images/emoji3.png" alt="emoji">
+                                
+                            </div>
+    
+                        </div>
+                        </div>
+                    </li>
+
+                    <li class="mT10">
+                        <div class="D-flx AI-C G-10 JC-FE">
+                            <img src="./images/p6.jpeg" alt="img" class="conversation-img">
+                            <div>
+                                <small class="c-blk f12 ">You,12.55am</small>
+                                <div class="grp-msg D-flx AI-C mT5"><p class="conversation">He creates an atmosphere of mystery</p></div>
+                                
+                            </div>
+    
+                        </div>
+
+                        <div class="D-flx AI-C G-10 JC-FE">
+                        
+                                
+                                <div class="grp-msg D-flx AI-C mT5"><p class="emoji-space"><img class="emji-img" src="/images/emoji2.jpg" alt=""><img class="emji-img" src="./images/emoji3.png" alt="emoji"></p>
+                        </div>
+                        </div>
+                    </li>
+                        
+                        <li class="mT10">
+                        <div class="D-flx AI-C G-10 mT10">
+                            <img src="./images/p6.jpeg" alt="img" class="conversation-img">
+                            <div>
+                                <small class="c-blk f12 ">Muthu kumar,02.00am</small>
+                                <div class="grp-msg D-flx AI-C mT5"><p class="conversation">yes dude i have a laptops  more</p><img class="emji-img" src="/images/emoji2.jpg" alt=""></div>
+                                
+                            </div>
+    
+                        </div>
+
+                        <div class="D-flx AI-C G-10 mT20">
+                            <img src="./images/p5.jpeg" alt="img" class="conversation-img">
+                            <div>
+                                <small class="c-blk f12 ">Apsara Roy,05.33am</small>
+                                <div class="grp-msg D-flx AI-C mT5"><p class="conversation">Recently i saw properties in great location that i did not pay attention to before </p> <img class="emji-img" src="/images/emoji3.png" alt="emoji"></div>
+                            </div>
+    
+                        </div>
+
+
+                        <div class="D-flx AI-C G-10 mT20">
+                            <i class='bx bx-loader-circle f22 c-grey-25'></i>
+                            <div>
+                                <small class="c-blk f12 ">Robert is Typing</small>
+                            
+                            </div>
+    
+                        </div>
+
+                        <div class="D-flx JC-FE">
+                            <div class=" send-msg" id="chat-container"></div>
+                        </div>
+                    </li>
+
+                    
+
+                </ul>
+            
+            </section>
+
+            <!-- footer -->
+            <footer class="footer">
+                <div class="msg-type-cont chat-container">
+                    <div><input type="text" placeholder="write your message" id="send-input" class="msg-input"></div>
+                
+                        <div class="D-flx AI-C G-20" >
+                            <button class="btn"><i class='bx bxs-smile icon-hov'></i></button>
+                            <button class="btn"><i class='bx bx-link icon-hov'></i></button>
+                            <div class="send-btn">
+                                <button class="btn" onclick="send()"><i class='bx bxs-send f20 send-icon c-white'></i></button>
+                            </div>
+                        </div>
+                
+                </div>
+            
+        
+            </footer>
+            
+        
+        
+            <!-- //footer -->
+        </div>
+        
+
+
+        <!-- file-sec -->
+
+        <div class="file-sec-container">
+
+            <header class="file-sec-header">
+                <div class="D-flx AI-C G-15">
+                    <div class="">
+                    <button class="btn arrow-btn"> <i class='bx bx-chevron-right c-grey-25 f22'></i></button>
+                    </div>
+                    <div><h3 class="deafault-tittle">Shared files</h3></div>
+                </div>
+            </header>
+    
+
+            <section>
+        <div class="file-sec-profile-hdr">
+            <div class="profile-cont-in D-flx Ta-c JC-C  ">
+                <div>
+                    <div class="prof-img-cont"><img class="profile-img" src="/images/building.jpeg" alt="">
+                    </div>
+
+                    <div><h3 class="deafault-tittle-sm mB8">Real Estate Deals</h3></div>
+
+                    <p class="">10 members</p>
+    
+                    
+                </div>
+                </div>
+
+                <div class="mT20 file-boxs">
+                    <ul>
+                        <li class="D-flx AI-C G-15">
+
+                            <div class="file-box c-green-15-bg">
+                                <div class="wht-aft">
+                                    <div class="white D-flx JC-C AI-C"><div class="green"></div></div>
+                                </div>
+                                    
+                            
+                                <div class=" D-flx AI-C G-8" >
+                                    <i class='bx bxs-folder c-green-15 f30'></i>
+        
+                                    <div class="">
+                                        <span class="c-green-20 f10">All files</span>
+                                        <div><small class="c-green-20 f30">231</small></div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+        
+        
+                            <div class="file-box c-grey-10-bg">
+                            
+                                <div class=" D-flx AI-C G-8" >
+                                    <i class='bx bxs-folder c-grey-25 f30'></i>
+        
+                                    <div class="">
+                                        <span class=" f10">All files</span>
+                                        <div><small class="c-blk f30">45</small></div>
+                                    </div>
+                                </div>
+                            
+                            </div>
+                        </div>
+                        </li>
+                    </ul>
+                </div>
+
+                
+                <div class="file-type">
+                    <div class="D-flx AI-C JC-SB">
+                        <span>File type</span>
+                        <button class="btn"><i class='bx bx-dots-vertical-rounded c-grey-25 f20'></i></button>
+                    </div>
+                <ul class="mT10">
+                    <li>
+                        <a href="" class=" D-flx AI-C JC-SB file-type-link c-grey-25">
+                    
+                        
+                                <div class="D-flx G-15">
+                                    <div class="file-bg c-blue-10bg"><i class='bx bxs-file-blank f18 c-blue-20'></i></div>
+                                    <div>
+                                        <span class="c-blk">Documents</span>
+                                        <p class=" f13">126 files,193MB</p>
+                                    </div>
+                                </div>
+                                <button class="btn "><i class='bx bx-chevron-right c-grey-25 f22'></i></button>
+                        
+                        </a>
+                    
+                            </li>
+                    
+                    
+                    <li class="">
+                        <a href="" class="D-flx AI-C JC-SB file-type-link c-grey-25">
+                    
+                                <div class="D-flx G-15">
+                                    <div class="file-bg c-yellow-10bg"><i class='bx bxs-image-alt f18 c-yellow-15'></i></div>
+                                    <div>
+                                        <span class="c-blk">Photos</span>
+                                        <p class="f13">53 files,323MB</p>
+                                    </div>
+                                </div>
+                                <button class="btn "><i class='bx bx-chevron-right c-grey-25 f22'></i></button>
+                            
+                        </a>
+                    
+                    </li>
+                
+
+
+                    <li class=""> 
+                        <a href="" class="D-flx AI-C JC-SB file-type-link c-grey-25">
+                        
+                                <div class="D-flx G-15">
+                                    <div class="file-bg c-green-15-bg"><i class='bx bxs-movie-play f18 c-green-15'></i></div>
+                                    <div>
+                                        <span class="c-blk">Movies</span>
+                                        <p class="f13">3 files,210MB</p>
+                                    </div>
+                                </div>
+                                <button class="btn "><i class='bx bx-chevron-right c-grey-25 f22'></i></button>
+                        
+                        </a>
+                        
+                    </li>
+                
+    
+                    <li class="">
+                        <a href="" class=" D-flx AI-C JC-SB file-type-link c-grey-25">
+                        
+                                <div class="D-flx G-15">
+                                    <div class="file-bg c-red-10bg"><i class='bx bxs-file-plus f18 c-red-15'></i></div>
+                                    <div>
+                                        <span class="c-blk">Others</span>
+                                        <p class="f13">49 files,293MB</p>
+                                    </div>
+                                </div>
+                                <button class="btn "><i class='bx bx-chevron-right c-grey-25 f22'></i></button>
+                        
+                        </a>
+                        
+                    </li>
+
+
+                    <li class="">
+                        <a href="" class=" D-flx AI-C JC-SB file-type-link c-grey-25">
+                    
+                        
+                                <div class="D-flx G-15">
+                                    <div class="file-bg c-blue-10bg"><i class='bx bxs-file-blank f18 c-blue-20'></i></div>
+                                    <div>
+                                        <span class="c-blk">Documents</span>
+                                        <p class=" f13">126 files,193MB</p>
+                                    </div>
+                                </div>
+                                <button class="btn "><i class='bx bx-chevron-right c-grey-25 f22'></i></button>
+                        
+                        </a>
+                    
+                            </li>
+                    
+                    
+                    <li class="">
+                        <a href="" class="D-flx AI-C JC-SB file-type-link c-grey-25">
+                    
+                                <div class="D-flx G-15">
+                                    <div class="file-bg c-yellow-10bg"><i class='bx bxs-image-alt f18 c-yellow-15'></i></div>
+                                    <div>
+                                        <span class="c-blk">Photos</span>
+                                        <p class="f13">53 files,323MB</p>
+                                    </div>
+                                </div>
+                                <button class="btn "><i class='bx bx-chevron-right c-grey-25 f22'></i></button>
+                            
+                        </a>
+                    
+                    </li>
+                
+
+
+                    <li class=""> 
+                        <a href="" class="D-flx AI-C JC-SB file-type-link c-grey-25">
+                        
+                                <div class="D-flx G-15">
+                                    <div class="file-bg c-green-15-bg"><i class='bx bxs-movie-play f18 c-green-15'></i></div>
+                                    <div>
+                                        <span class="c-blk">Movies</span>
+                                        <p class="f13">3 files,210MB</p>
+                                    </div>
+                                </div>
+                                <button class="btn "><i class='bx bx-chevron-right c-grey-25 f22'></i></button>
+                        
+                        </a>
+                        
+                    </li>
+                
+    
+                    <li class="">
+                        <a href="" class=" D-flx AI-C JC-SB file-type-link c-grey-25">
+                        
+                                <div class="D-flx G-15">
+                                    <div class="file-bg c-red-10bg"><i class='bx bxs-file-plus f18 c-red-15'></i></div>
+                                    <div>
+                                        <span class="c-blk">Others</span>
+                                        <p class="f13">49 files,293MB</p>
+                                    </div>
+                                </div>
+                                <button class="btn "><i class='bx bx-chevron-right c-grey-25 f22'></i></button>
+                        
+                        </a>
+                        
+                    </li>
+                    
+                    <li class="">
+                        <a href="" class=" D-flx AI-C JC-SB file-type-link c-grey-25">
+                    
+                        
+                                <div class="D-flx G-15">
+                                    <div class="file-bg c-blue-10bg"><i class='bx bxs-file-blank f18 c-blue-20'></i></div>
+                                    <div>
+                                        <span class="c-blk">Documents</span>
+                                        <p class=" f13">126 files,193MB</p>
+                                    </div>
+                                </div>
+                                <button class="btn "><i class='bx bx-chevron-right c-grey-25 f22'></i></button>
+                        
+                        </a>
+                    
+                            </li>
+                    
+                    
+                    <li class="">
+                        <a href="" class="D-flx AI-C JC-SB file-type-link c-grey-25">
+                    
+                                <div class="D-flx G-15">
+                                    <div class="file-bg c-yellow-10bg"><i class='bx bxs-image-alt f18 c-yellow-15'></i></div>
+                                    <div>
+                                        <span class="c-blk">Photos</span>
+                                        <p class="f13">53 files,323MB</p>
+                                    </div>
+                                </div>
+                                <button class="btn "><i class='bx bx-chevron-right c-grey-25 f22'></i></button>
+                            
+                        </a>
+                    
+                    </li>
+                
+
+
+                    <li class=""> 
+                        <a href="" class="D-flx AI-C JC-SB file-type-link c-grey-25">
+                        
+                                <div class="D-flx G-15">
+                                    <div class="file-bg c-green-15-bg"><i class='bx bxs-movie-play f18 c-green-15'></i></div>
+                                    <div>
+                                        <span class="c-blk">Movies</span>
+                                        <p class="f13">3 files,210MB</p>
+                                    </div>
+                                </div>
+                                <button class="btn "><i class='bx bx-chevron-right c-grey-25 f22'></i></button>
+                        
+                        </a>
+                        
+                    </li>
+                
+    
+                    <li class="">
+                        <a href="" class=" D-flx AI-C JC-SB file-type-link c-grey-25">
+                        
+                                <div class="D-flx G-15">
+                                    <div class="file-bg c-red-10bg"><i class='bx bxs-file-plus f18 c-red-15'></i></div>
+                                    <div>
+                                        <span class="c-blk">Others</span>
+                                        <p class="f13">49 files,293MB</p>
+                                    </div>
+                                </div>
+                                <button class="btn "><i class='bx bx-chevron-right c-grey-25 f22'></i></button>
+                        
+                        </a>
+                        
+                    </li>
+
+
+                </ul>
+                </div> 
+        
+            </section>
+        </div>                             
+
+    </div>
+    </div>
+
+    <!-- js -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
+
+
+        

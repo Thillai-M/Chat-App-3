@@ -1,0 +1,33 @@
+
+.btn{
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: transparent;
+    transition: var(--deaf-trans);
+    cursor: pointer;
+
+}
+.arrow-btn{
+    width: 30px;
+    height: 30px;
+    background-color: var(--c-grey-15);
+    border-radius: var(--br-radius-sm);
+
+}
+
+.add-btn{
+    width: 30px;
+    height: 30px;
+    border-radius: var(--br-radius-sm);
+    background-color: var(--c-green-10);
+}
+.send-btn{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 30px;
+    height: 30px;
+    background-color: var(--c-green-15);
+    border-radius: var(--br-radius-lm);
+}

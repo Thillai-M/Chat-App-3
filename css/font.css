@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family:"Puvi_Regular";
+    src: url("/fonts/Zoho\ Puvi\ Regular.otf");
+    font-display: swap;
+}
+@font-face {
+    font-family:"Puvi_Semibold";
+    src: url("/fonts/Zoho\ Puvi\ Semibold.otf");
+    font-display: swap;
+}
+
+
+:root{
+    --font-regular: Puvi_Regular;
+    --font-semibold:Puvi_Semibold;
+}

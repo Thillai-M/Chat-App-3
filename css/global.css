@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    color: var(--c-grey-25);
+    background-color: var(--c-black);
+    font-size: 16px;
+    font-family:var(--font-regular);
+    line-height: 1.3;
+}

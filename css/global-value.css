@@ -1,0 +1,19 @@
+
+:root{
+    --w-sidebar:75px;
+    
+    --h-profile-cont:180px;
+    --h-chat-listHead:60px;
+    --h-search-cont-box:90px;
+
+    --h-conversation-hdr:60px;
+    --h-footer:40px;
+    --h-file-sec-hdr:60px;
+    --h-file-sec-prof-hdr:260px;
+
+    --br-radius-sm:5px;
+    --br-radius-lm:8px;
+    --br-radius-full:50%;
+}
+.cp{cursor: pointer;}
+.w100pc{width: 100%;}
