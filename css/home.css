@@ -100,8 +100,10 @@
 
 }
 
+/*// chat-list-container */
 
-/* conversation */
+
+/* conversation-sec */
 
 .conversation-container{
     width: 50%;
@@ -196,7 +198,7 @@
 .icon-hov:hover{
     color: var(--c-green-15);
 }
-
+/* ///conversation-sec */
 
 /* flie-sec*/
 
@@ -273,3 +275,4 @@
     color: var(--c-black);
     padding: 10px;
 }
+/* ///flie-sec*/

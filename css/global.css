@@ -1,3 +1,5 @@
+
+/* common */
 *{
     margin: 0;
     padding: 0;
@@ -9,6 +11,11 @@ body{
     color: var(--c-grey-25);
     background-color: var(--c-black);
     font-size: 16px;
-    font-family:var(--font-regular);
+    font-family:"Puvi_Regular";
     line-height: 1.3;
 }
+
+ul li { list-style: none; }
+a { text-decoration: none; }
+a:hover { cursor: pointer; }
+/* ///common */
